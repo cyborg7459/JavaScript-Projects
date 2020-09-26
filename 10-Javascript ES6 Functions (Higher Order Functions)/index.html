@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript ES6 Functions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></head>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <h1 class="display-3">Javascript ES6 Functions</h1>
+    <p class="lead">A project invloving the use of map(), filter(), sort(), reduce() and forEach() methods</p>
+    <div id="content">
+        <div class="row">
+            <div class="col-5 col-lg-4" id="menu">
+                <button id="add" class="btn btn-outline-info btn-lg btn-block">Add User</button>
+                <button id="double" class="btn btn-outline-danger btn-lg btn-block">Double Money</button>
+                <button id="millionaire" class="btn btn-outline-dark btn-lg btn-block">Show only millionaires</button>
+                <button id="richest" class="btn btn-outline-primary btn-lg btn-block">Sort by richest</button>
+                <button id="total-btn" class="btn btn-outline-success btn-lg btn-block">Calculate entire wealth</button>
+            </div>
+            <div class="col-7 col-lg-8" id="list">
+                <div class="row mx-0 mb-1" id="heading">
+                    <p class="lead left p-0 mb-0">Person</p>
+                    <p class="lead right p-0 mb-0">Wealth</p>
+                </div>
+                <hr class="mt-0">
+                <div id="users">
+                </div>
+                <div id="total" class="d-none">
+                    <hr>
+                    <div class="row m-0">
+                        <p class="lead mb-0">Total</p>
+                        <p class="lead mb-0" id="total-wealth"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

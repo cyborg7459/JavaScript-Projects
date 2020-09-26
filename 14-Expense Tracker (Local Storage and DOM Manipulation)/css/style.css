@@ -1,0 +1,80 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    padding: 50px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5fafa;
+}
+
+.container {
+    width: 98%;
+    max-width: 600px;
+    padding: 60px 0px;
+}
+
+#tracker-card {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around!important;
+    margin: 25px 0px;
+}
+
+.display-card {
+    margin: 20px 0px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%!important;
+}
+
+.card-content h4 {
+    width: 100%!important;
+}
+
+.amount {
+    float: right;
+}
+
+.del-btn {
+    font-size: 40px;
+    width: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in;
+}
+
+.del-btn:hover {
+    cursor: pointer;
+}
+
+.display-card:hover .del-btn {
+    width: 60px;
+}
+
+.expense-card {
+    border-right: 8px solid #c22004;
+}
+
+.income-card {
+    border-right: 8px solid #0da810;
+}
+
+#add-btn {
+    background-color: #003473;
+    color: white;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics Search | Search song lyrics on the go</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="header">
+        <h1 class="display-3">Lyrics Search</h1>
+        <div id="input-group">
+            <input type="text" id="searchfield" placeholder="Enter name of the song, artist, or album..." class="form-control">
+            <button id="search">Search</button>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="container">
+            <div id="list" class="lead"></div>
+            <div id="pagination" class="py-4 text-info d-none">
+                <div id="prev-btn" class="mr-5">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                Page <span id="current-page" class="mx-2">2</span>/<span id="total-pages" class="ml-2">12</span>
+                <div id="next-btn" class="ml-5">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div id="lyrics" class="lead text-center"></div>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

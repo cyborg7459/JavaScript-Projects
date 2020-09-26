@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker | Keep all expenses and incomes in track</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="display-3 text-center">Expense Tracker</h1>
+    <div class="container">
+        <h3>YOUR BALANCE</h3>
+        <h1 id="total-balance">$0.00</h1>
+        <div id="tracker-card" class="display-card">
+            <div id="total-income">
+                <h3>INCOME</h3>
+                <h3 id="total-income-value" class="text-success">$0.00</h3>
+            </div>
+            <div id="total-expense">
+                <h3>EXPENSE</h3>
+                <h3 id="total-expense-value" class="text-danger">$0.00</h3>
+            </div>
+        </div>
+        <h3 class="mt-5">History</h3>
+        <hr class="mt-2">
+        <div id="card-list"></div>
+        <h3 class="mt-5">Add new transaction</h3>
+        <hr class="mt-2">
+        <div class="form-group py-4">
+            <h4>Transaction</h4>
+            <input type="text" id="transaction-name" class="mb-4 form-control form-control-lg" placeholder="Enter transaction...">
+            <h4>Amount</h4>
+            <h5>(positive for income, negative for expense)</h5>
+            <input type="text" id="transaction-amount" class="mb-4 form-control form-control-lg" placeholder="Enter amount...">
+            <button class="btn btn-lg btn-block" id="add-btn">Add Transaction</button>
+        </div>
+    </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

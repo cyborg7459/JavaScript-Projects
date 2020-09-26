@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Testing | Animate on Scroll Library</title>
+</head>
+<body>
+    <h1 class="text-center display-3">Animate on Scroll</h1>
+    <h1 class="text-center">A wonderful javascript library for animations</h1>
+    <div class="container">
+        <div 
+            data-aos='fade-up' 
+            data-aos-duration='1000' 
+            data-aos-offset="5" 
+            data-aos-mirror="true"
+            data-aos-anchor-placement='top-center'
+            class="block"
+        >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div  class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='fade-right' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='fade-left' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='flip-left' data-aos-duration="1000" class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='flip-right' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='zoom-in' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='zoom-in' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='zoom-in-up' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div id="target" data-aos='zoom-in-down' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div 
+            data-aos='fade-up' 
+            data-aos-duration='1000' 
+            class="block"
+        >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos="zoom-out" class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='fade-right' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+        <div data-aos='fade-left' class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo repellat nostrum temporibus autem! Fuga.</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration : 1000,
+            mirror : true,
+            easing : 'ease-in-out'
+        });
+    </script>
+</body>
+</html>

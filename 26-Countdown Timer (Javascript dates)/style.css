@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1{
+    font-weight: 200!important;
+}

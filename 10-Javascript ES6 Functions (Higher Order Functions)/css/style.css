@@ -1,0 +1,69 @@
+html  {
+    height: 100vh;
+}
+
+body  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.row  {
+    width: 100%;
+}
+
+#content
+{
+    margin-top: 100px;
+    width: 80%;
+    max-width: 1500px;
+}
+
+#menu  {
+    border-right: 1px solid black;
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr  {
+    height: 1px;
+    background-color: gray;
+}
+
+#list  {
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+#heading .lead    {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#list .row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+#users .row:nth-of-type(2n)
+{
+    background-color: #f5f5f5;
+}
+
+#total .row  {
+    /* background-color: rgba(0,0,0,0.4); */
+    
+}
+
+#total .lead  {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
