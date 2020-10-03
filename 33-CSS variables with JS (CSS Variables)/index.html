@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS variables with JS</title>
+</head>
+<body>
+    <div class="overlay">
+        <h1 class="display-1">Update CSS Variables with <span class="js">JS</span></h1>
+        <hr>
+        <div id="options">
+            <div class="option">
+                <h1 class="display-3">Spacing</h1>
+                <input id="spacing" type="range" max="25" value="10" min="0">
+            </div>
+            <div class="option">
+                <h1 class="display-3">Blur</h1>
+                <input id="blur" type="range" max="15" value="0" min="0">
+            </div>
+            <div class="option">
+                <h1 class="display-3">Color</h1>
+                <input id="color" type="color" value="#FFFF00">
+           </div>          
+        </div>
+        <div id="img-container">
+            <img src="https://static01.nyt.com/images/2019/04/16/sports/16onsoccerweb-2/merlin_153612873_5bb119b9-8972-4087-b4fd-371cab8c5ba2-superJumbo.jpg" alt="messi" class="img-fluid" id="img">
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Quintessential&display=swap');
+
+html {
+  font-size: 8px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+    --primary-color : yellow;
+    --spacing : 20px;
+    --blur : blur(0px);
+}
+
+body {
+  background: url('https://wallpapercave.com/wp/wp3085087.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.js {
+    color: var(--primary-color);
+}
+
+hr {
+    background-color: #fff;
+    width: 400px;
+}
+
+#options {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    max-width: 1200px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+}
+
+#color {
+    border: 1px;
+}
+
+#img-container {
+    width: 800px;
+    margin-top: 100px;
+    background-color: var(--primary-color);
+    padding: var(--spacing);
+}
+
+#img {
+    filter: var(--blur);
+}
