@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Quintessential&display=swap');
+
+html {
+  font-size: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url('https://wallpapercave.com/wp/Z0kmvgB.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container {
+    background-color: rgba(0,0,0,0.7);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
+    position: relative;
+}
+
+.hour-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6px;
+    background-color: #fff;
+    height: 120px;
+    transform-origin: 0 0;
+}
+
+.minute-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    background-color: #fff;
+    transform: rotateZ(20deg);
+    height: 150px;
+    transform-origin: 0 0;
+}
+
+.second-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    background-color: #fff;
+    height: 150px;
+    transform: rotateZ(240deg);
+    transform-origin: 0 0;
+}
+
+.center-circle {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 170px;
+    background-color: rgba(255,255,255,0.1);
+    transform: rotateZ(240deg);
+    transform-origin: 0 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
